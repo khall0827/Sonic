@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="920" viewBox="0 0 1200 920" role="img" aria-labelledby="title description">
+    <title id="title">Portfolio website wireframe plan</title>
+    <desc id="description">Wireframes for the Home, Projects, and About and Contact pages, with planned color palette and fonts.</desc>
+    <style>
+        text { font-family: Arial, sans-serif; fill: #172B4D; }
+        .heading { font-family: Georgia, serif; font-weight: bold; }
+        .outline { fill: #FFF9ED; stroke: #172B4D; stroke-width: 3; }
+        .block { fill: #D9E6E3; stroke: #257A78; stroke-width: 2; }
+        .line { stroke: #172B4D; stroke-width: 2; }
+    </style>
+    <rect width="1200" height="920" fill="#FFF9ED"/>
+    <text class="heading" x="600" y="55" text-anchor="middle" font-size="34">Kristen Hall - Portfolio Site Plan</text>
+
+    <g transform="translate(45,95)">
+        <rect class="outline" width="350" height="590" rx="8"/>
+        <text class="heading" x="175" y="38" text-anchor="middle" font-size="24">Home</text>
+        <rect class="block" x="22" y="58" width="306" height="70" rx="4"/>
+        <text x="175" y="88" text-anchor="middle" font-size="17">Header: Name + tagline</text>
+        <text x="175" y="112" text-anchor="middle" font-size="17">Shared navigation</text>
+        <rect class="block" x="22" y="148" width="306" height="132" rx="4"/>
+        <text x="175" y="182" text-anchor="middle" font-size="18">Welcome</text>
+        <line class="line" x1="50" y1="205" x2="300" y2="205"/>
+        <line class="line" x1="50" y1="228" x2="280" y2="228"/>
+        <line class="line" x1="50" y1="251" x2="295" y2="251"/>
+        <rect class="block" x="22" y="300" width="306" height="130" rx="4"/>
+        <text x="175" y="334" text-anchor="middle" font-size="18">Skills &amp; focus areas</text>
+        <line class="line" x1="50" y1="357" x2="300" y2="357"/>
+        <line class="line" x1="50" y1="380" x2="280" y2="380"/>
+        <line class="line" x1="50" y1="403" x2="295" y2="403"/>
+        <rect class="block" x="22" y="450" width="306" height="70" rx="4"/>
+        <text x="175" y="492" text-anchor="middle" font-size="18">Footer</text>
+    </g>
+
+    <g transform="translate(425,95)">
+        <rect class="outline" width="350" height="590" rx="8"/>
+        <text class="heading" x="175" y="38" text-anchor="middle" font-size="24">Projects / Work</text>
+        <rect class="block" x="22" y="58" width="306" height="70" rx="4"/>
+        <text x="175" y="88" text-anchor="middle" font-size="17">Header: Name + tagline</text>
+        <text x="175" y="112" text-anchor="middle" font-size="17">Shared navigation</text>
+        <rect class="block" x="22" y="148" width="306" height="90" rx="4"/>
+        <text x="175" y="184" text-anchor="middle" font-size="18">My Work introduction</text>
+        <line class="line" x1="50" y1="207" x2="300" y2="207"/>
+        <rect class="block" x="22" y="258" width="306" height="105" rx="4"/>
+        <text x="175" y="290" text-anchor="middle" font-size="18">Project 1</text>
+        <line class="line" x1="50" y1="315" x2="300" y2="315"/>
+        <line class="line" x1="50" y1="338" x2="280" y2="338"/>
+        <rect class="block" x="22" y="383" width="306" height="105" rx="4"/>
+        <text x="175" y="415" text-anchor="middle" font-size="18">Project 2</text>
+        <line class="line" x1="50" y1="440" x2="300" y2="440"/>
+        <line class="line" x1="50" y1="463" x2="280" y2="463"/>
+        <rect class="block" x="22" y="508" width="306" height="50" rx="4"/>
+        <text x="175" y="540" text-anchor="middle" font-size="18">Footer</text>
+    </g>
+
+    <g transform="translate(805,95)">
+        <rect class="outline" width="350" height="590" rx="8"/>
+        <text class="heading" x="175" y="38" text-anchor="middle" font-size="24">About / Contact</text>
+        <rect class="block" x="22" y="58" width="306" height="70" rx="4"/>
+        <text x="175" y="88" text-anchor="middle" font-size="17">Header: Name + tagline</text>
+        <text x="175" y="112" text-anchor="middle" font-size="17">Shared navigation</text>
+        <rect class="block" x="22" y="148" width="306" height="140" rx="4"/>
+        <text x="175" y="183" text-anchor="middle" font-size="18">About Me</text>
+        <line class="line" x1="50" y1="207" x2="300" y2="207"/>
+        <line class="line" x1="50" y1="230" x2="280" y2="230"/>
+        <line class="line" x1="50" y1="253" x2="295" y2="253"/>
+        <rect class="block" x="22" y="308" width="306" height="158" rx="4"/>
+        <text x="175" y="343" text-anchor="middle" font-size="18">Contact details</text>
+        <line class="line" x1="50" y1="367" x2="300" y2="367"/>
+        <line class="line" x1="50" y1="390" x2="280" y2="390"/>
+        <line class="line" x1="50" y1="413" x2="295" y2="413"/>
+        <rect class="block" x="22" y="486" width="306" height="72" rx="4"/>
+        <text x="175" y="529" text-anchor="middle" font-size="18">Footer</text>
+    </g>
+
+    <rect class="outline" x="45" y="725" width="1110" height="145" rx="8"/>
+    <text class="heading" x="75" y="765" font-size="24">Design notes</text>
+    <text x="75" y="805" font-size="20">Palette: deep navy (#172B4D), teal (#257A78), and warm cream (#FFF9ED).</text>
+    <text x="75" y="840" font-size="20">Fonts: Georgia for headings; Arial for body text. CSS will be added later.</text>
+</svg>
