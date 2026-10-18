@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>About Me - Portfolio</title>
+</head>
+<body>
+
+    <header>
+        <h1>About Me</h1>
+    </header>
+
+    <main>
+        <section>
+            <h2>Background</h2>
+            <p>I'm 38 years old, a mom of two girls, and I live in Nebraska.</p>
+            <p>I am currently attending Campus for Cybersecurity.</p>
+        </section>
+
+        <section>
+            <h2>Passions & Interests</h2>
+            <p>I have a strong passion for all kinds of animals, especially reptiles!</p>
+            <!-- Valid <img> tag with descriptive alt attribute -->
+            <img src="Lizard.jpg" alt="A photo of a lizard">
+
+
+            <ul>
+                <li>Gaming</li>
+                <li>Watching horror movies</li>
+                <li>Learning about the unknown and dark history</li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 About Me Page</p>
+    </footer>
+</body>
+</html>
