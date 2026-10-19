@@ -13,4 +13,4 @@ The [wireframe](wireframe.svg) shows the planned layout for all three pages.
 - **Color palette:** deep navy, teal, and warm cream.
 - **Fonts:** Georgia for headings and Arial for body text.
 
-The pages are HTML structure only; CSS has not been added yet.
+The shared [stylesheet](styles.css) applies the site colors and fonts, responsive navigation, and spacing/borders that demonstrate the CSS box model across the pages.
