@@ -4,15 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kristen Hall - Portfolio Home</title>
+    <link rel="stylesheet" href="homework1.css">
 </head>
 <body>
 
-    <header>
+    <header class="site-header">
         <h1>Kristen Hall</h1>
         <p>Student Web Developer & Technical Support
 
         </p>
-        <nav>
+        <nav class="site-nav" aria-label="Main navigation">
             <ul>
                 <li><a href="index.html">Home</a></li>
                 <li><a href="projects.html">Projects</a></li>
@@ -22,12 +23,12 @@
     </header>
 
     <main>
-        <section>
+        <section id="welcome" class="content-card">
             <h2>Welcome</h2>
             <p>Hello! I'm Kristen Hall, based in Omaha, Nebraska. Welcome to my personal portfolio site where I showcase my web development and technical support work.</p>
         </section>
 
-        <section>
+        <section class="content-card">
             <h2>Featured Skills & Focus Areas</h2>
             <h3>Web Development</h3>
             <p>HTML, CSS, JavaScript, and semantic web design principles.</p>
@@ -37,7 +38,7 @@
         </section>
     </main>
 
-    <footer>
+    <footer class="site-footer">
         <p>&copy; 2026 Kristen Hall. All rights reserved. | Omaha, NE</p>
     </footer>
 
