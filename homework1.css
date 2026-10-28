@@ -17,6 +17,15 @@ h3 {
     line-height: 1.25;
 }
 
+a {
+    color: #34766c;
+}
+
+a:hover,
+a:focus {
+    color: #2db045;
+}
+
 .site-header {
     margin: 0;
     padding: 2rem 1rem 1.5rem;
@@ -86,13 +95,13 @@ main {
     color: #34766c;
 }
 
+.content-card p:last-child {
+    margin-bottom: 0;
+}
+
 #welcome {
     border-left-color: #e7a94b;
     background-color: #fffaf0;
-}
-
-.content-card p:last-child {
-    margin-bottom: 0;
 }
 
 .site-footer {
