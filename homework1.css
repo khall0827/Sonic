@@ -1,10 +1,143 @@
-
-	margin: 20px;
-	padding: 10px;
-	background-color: #f0f0f0;
-	border: 1px solid #ccc;
-	border-radius: 5px;
-	font-family: Arial, sans-serif;
-	color: #333;
+* {
+    box-sizing: border-box;
 }
 
+body {
+    margin: 0;
+    background-color: #b47d10;
+    color: #172B4D;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+h1,
+h2,
+h3 {
+    font-family: Georgia, serif;
+    line-height: 1.25;
+}
+
+a {
+    color: #176866;
+}
+
+a:hover,
+a:focus {
+    color: #172B4D;
+}
+
+.site-header {
+    padding: 2rem 1rem 1.5rem;
+    border-bottom: 6px solid #257A78;
+    background-color: #172B4D;
+    color: #FFF9ED;
+    text-align: center;
+}
+
+.site-header h1 {
+    margin: 0;
+    font-size: clamp(2rem, 5vw, 3rem);
+}
+
+.site-header p {
+    margin: 0.5rem 0 1.25rem;
+}
+
+.site-nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0.5rem;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.site-nav a {
+    display: block;
+    padding: 0.5rem 0.9rem;
+    border: 1px solid #8BC4B8;
+    border-radius: 0.35rem;
+    color: #9b4e0f;
+    text-decoration: none;
+}
+
+.site-nav a:hover,
+.site-nav a:focus,
+.site-nav a[aria-current="page"] {
+    background-color: #257A78;
+    color: #620a84;
+}
+
+main {
+    width: min(100% - 2rem, 900px);
+    min-height: 55vh;
+    margin: 2rem auto;
+}
+
+.content-card,
+.project-card {
+    margin: 0 0 1.5rem;
+    padding: clamp(1.25rem, 4vw, 2rem);
+    border: 1px solid #B7C9C3;
+    border-left: 6px solid #257A78;
+    border-radius: 0.5rem;
+    background-color: #FFFFFF;
+    box-shadow: 0 4px 14px rgb(23 43 77 / 8%);
+}
+
+.content-card h2 {
+    margin-top: 0;
+    color: #172B4D;
+}
+
+.content-card h3 {
+    margin-bottom: 0.25rem;
+    color: #176866;
+}
+
+.content-card p:last-child,
+.project-card p:last-child {
+    margin-bottom: 0;
+}
+
+#welcome {
+    border-left-color: #172B4D;
+}
+
+.project-card {
+    margin-top: 1rem;
+    background-color: #F5FAF8;
+}
+
+.project-card h3 {
+    margin-top: 0;
+}
+
+.site-footer {
+    margin-top: 3rem;
+    padding: 1.25rem 1rem;
+    border-top: 4px solid #257A78;
+    background-color: #172B4D;
+    color: #FFF9ED;
+    text-align: center;
+}
+
+.site-footer p {
+    margin: 0;
+}
+
+@media (max-width: 480px) {
+    main {
+        width: min(100% - 1rem, 900px);
+        margin: 1rem auto;
+    }
+
+    .site-nav ul {
+        gap: 0.25rem;
+    }
+
+    .site-nav a {
+        padding: 0.45rem 0.65rem;
+    }
+}
