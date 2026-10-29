@@ -11,6 +11,6 @@ Three linked HTML pages for the portfolio assignment:
 The [wireframe](wireframe.svg) shows the planned layout for all three pages.
 
 - **Color palette:** deep navy, teal, and warm cream.
-- **Fonts:** Georgia for headings and Arial for body text.
+- **Fonts:** Lora for headings and DM Sans for body text, loaded from Google Fonts.
 
-The shared [stylesheet](homework1.css) is linked from all three pages and applies the site colors and fonts, responsive navigation, and spacing/borders that demonstrate the CSS box model.
+The shared [stylesheet](homework1.css) is linked from all three pages and applies the site colors, responsive card layouts, navigation, and an 8px-based spacing system.
