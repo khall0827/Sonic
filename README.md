@@ -2,6 +2,8 @@
 
 Three linked HTML pages for the portfolio assignment:
 
+- [Live site](https://khall0827.github.io/Sonic/)
+- [GitHub repository](https://github.com/khall0827/Sonic)
 - [Home](index.html)
 - [Projects / Work](projects.html)
 - [About / Contact](contact.html)
