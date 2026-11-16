@@ -19,11 +19,11 @@ The shared [stylesheet](homework1.css) is linked from all three pages and applie
 
 ## Accessibility fixes
 
-- I added a skip-to-main-content link to all three pages so keyboard users can bypass repeated navigation.
-- I added a high-contrast visible focus indicator for links, buttons, and form controls.
-- I added explicitly associated labels, required-field constraints, and inline announced error messages to the contact form.
-- I used a consistent high-contrast text and background palette across the shared page components.
-- I checked the text and control color pairs with the WebAIM Contrast Checker; every normal-text combination passes WCAG AA, with a minimum ratio of 6.24:1.
+- I added a skip-to-main-content link to all three pages so keyboard users can reach page content without tabbing through repeated navigation.
+- I added high-contrast visible focus indicators to links, buttons, and form controls so keyboard users can tell which element is currently selected.
+- I added associated labels, required-field validation, and announced inline errors to the contact form so everyone, including screen-reader users, can identify fields and understand how to correct mistakes.
+- I standardized the shared text and background colors so the same readable palette is used throughout all three pages.
+- I checked the text and control color pairs with the WebAIM Contrast Checker; every normal-text combination passes WCAG AA, with a minimum ratio of 6.24:1, so text remains readable against its background.
 - WAVE found 0 errors, 0 contrast errors, and 0 alerts on the published [Home](https://wave.webaim.org/report#/https://khall0827.github.io/Sonic/index.html), [Projects](https://wave.webaim.org/report#/https://khall0827.github.io/Sonic/projects.html), and [About / Contact](https://wave.webaim.org/report#/https://khall0827.github.io/Sonic/contact.html) pages after these changes.
 
 ## Visual design
