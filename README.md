@@ -24,7 +24,7 @@ The shared [stylesheet](homework1.css) is linked from all three pages and applie
 - I added explicitly associated labels, required-field constraints, and inline announced error messages to the contact form.
 - I used a consistent high-contrast text and background palette across the shared page components.
 - I checked the text and control color pairs with the WebAIM Contrast Checker; every normal-text combination passes WCAG AA, with a minimum ratio of 6.24:1.
-- WAVE reports for [Home](https://wave.webaim.org/report#/https://khall0827.github.io/Sonic/), [Projects](https://wave.webaim.org/report#/https://khall0827.github.io/Sonic/projects.html), and [About / Contact](https://wave.webaim.org/report#/https://khall0827.github.io/Sonic/contact.html) detected no errors before these changes; I will rerun the reports on the published pages after deployment.
+- WAVE found 0 errors, 0 contrast errors, and 0 alerts on the published [Home](https://wave.webaim.org/report#/https://khall0827.github.io/Sonic/index.html), [Projects](https://wave.webaim.org/report#/https://khall0827.github.io/Sonic/projects.html), and [About / Contact](https://wave.webaim.org/report#/https://khall0827.github.io/Sonic/contact.html) pages after these changes.
 
 ## Visual design
 
