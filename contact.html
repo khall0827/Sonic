@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="homework1.css">
 </head>
 <body>
+    <a class="skip-link" href="#main-content">Skip to main content</a>
     <header class="site-header">
         <h1>Kristen Hall</h1>
         <p>About Me &amp; Contact Information</p>
@@ -22,7 +23,7 @@
         </nav>
     </header>
 
-    <main>
+    <main id="main-content">
         <section class="content-card">
             <h2>About Me</h2>
             <p>I am a technology student based in Omaha, Nebraska, currently studying Web Development and CompTIA A+ Core Technical Support. I enjoy solving complex problems, building web interfaces, and understanding how technical systems operate from the inside out.</p>
@@ -30,9 +31,31 @@
 
         <section class="content-card">
             <h2>Get In Touch</h2>
-            <p>Feel free to reach out to me via email.</p>
+            <p>Send me a message or contact me by email. All form fields are required.</p>
 
-            <h3>Contact Details</h3>
+            <form class="contact-form" action="mailto:khall2@my.campus.edu" method="post" enctype="text/plain">
+                <fieldset>
+                    <legend>Your message</legend>
+                    <div class="form-field">
+                        <label for="name">Name</label>
+                        <input id="name" name="name" type="text" autocomplete="name" aria-describedby="name-error" aria-invalid="false" required>
+                        <span class="field-error" id="name-error" aria-live="polite"></span>
+                    </div>
+                    <div class="form-field">
+                        <label for="email">Email address</label>
+                        <input id="email" name="email" type="email" autocomplete="email" aria-describedby="email-error" aria-invalid="false" required>
+                        <span class="field-error" id="email-error" aria-live="polite"></span>
+                    </div>
+                    <div class="form-field">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="5" aria-describedby="message-error" aria-invalid="false" required></textarea>
+                        <span class="field-error" id="message-error" aria-live="polite"></span>
+                    </div>
+                </fieldset>
+                <button class="submit-button" type="submit">Send message</button>
+            </form>
+
+            <h3>Other contact details</h3>
             <ul>
                 <li><strong>Location:</strong> Omaha, Nebraska</li>
                 <li><strong>Academic Email:</strong> <a href="mailto:khall2@my.campus.edu">khall2@my.campus.edu</a></li>
@@ -44,5 +67,6 @@
     <footer class="site-footer">
         <p>&copy; 2026 Kristen Hall. All rights reserved. | Omaha, NE</p>
     </footer>
+    <script src="contact-form.js" defer></script>
 </body>
 </html>
